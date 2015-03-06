@@ -1,0 +1,93 @@
+body 
+{
+	background-color:#f7ff00;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+	color:white;
+	font-weight: 700;
+	font-size: 50pt;
+	letter-spacing: 5px;
+
+}
+
+h2 {
+	font-family: 'Slabo 27px', serif;
+	color:white;
+	font-weight: 700;
+	font-size: 40pt;
+	letter-spacing: 5px;
+
+}
+
+
+.oswald {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+::selection {
+    color: white; 
+    background: #00ff28;
+}
+
+#container 
+{
+	height: 4000px;
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.article 
+{
+	width: 49%;
+	height: 180px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	opacity:.8;
+
+}
+
+.article:hover
+{
+	opacity:.5;
+}
+
+
+.article img 
+{
+	width: 100%;
+	transition: all 0.5s ease;
+
+}
+
+
+.article img:hover
+{
+	width: 120%;
+
+
+}
+
+#question {
+	position:fixed;
+	width: 400px;
+	top: 20px;
+	right: 20px;
+	opacity: .7;
+
+}
+
+
+#star {
+	position:absolute;
+	width:700px;
+	top: 500px;
+	right:400px;
+	opacity: .5;
+	z-index: -1;
+}

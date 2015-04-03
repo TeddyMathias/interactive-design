@@ -24,7 +24,7 @@ select {
    height: 50px;
    width: 60px;
    font-family: monospace;
-   -webkit-transition:width 3s;
+   -webkit-transition:width 2s;
 }
 
 select:hover {

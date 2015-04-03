@@ -582,7 +582,8 @@ body.eight a {
 
 body.eight #container {
 	padding:20px; 
-	margin:50px 100px;
+	width: 50%;
+	margin:100px auto;
 
 }
 

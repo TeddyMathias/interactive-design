@@ -368,6 +368,7 @@ body.three #author {
 
 body.four .rain {
 	position: fixed;
+	z-index: -10;
 	-webkit-animation: FALL 5s infinite; /* Safari 4+ */
 	-moz-animation: FALL 5s infinite; /* Fx 5+ */
 	-o-animation: FALL 5s infinite; /* Opera 12+ */
@@ -377,6 +378,7 @@ body.four .rain {
 
 body.four .raintwo {
 	position: fixed;
+	z-index: -10;
 	-webkit-animation: FALL 10s infinite; /* Safari 4+ */
 	-moz-animation: FALL 10s infinite; /* Fx 5+ */
 	-o-animation: FALL 10s infinite; /* Opera 12+ */
@@ -386,6 +388,7 @@ body.four .raintwo {
 
 body.four .rainthree {
 	position: fixed;
+	z-index: -10;
 	-webkit-animation: FALL 15s infinite; /* Safari 4+ */
 	-moz-animation: FALL 15s infinite; /* Fx 5+ */
 	-o-animation: FALL 15s infinite; /* Opera 12+ */
@@ -439,11 +442,13 @@ body.four #container {
 	margin: 80px auto;
 	width: 800px;
 	text-align: center;
+	z-index: 10000;
 
 }
 
 
-body.four #title {
+body.four .enter {
+	z-index: 10000;
 
 }
 

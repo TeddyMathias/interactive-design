@@ -1,0 +1,75 @@
+body {
+	background: url(paper.png) repeat;
+}
+
+.container {
+	width: 400px;
+	margin: 200px auto;
+
+}
+
+#info {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+
+h3 {
+	font-family: 'Source Code Pro', san-serif;
+}
+
+h3:hover {
+	color:#FFDF4A;
+}
+
+#box {
+	width: 100%;
+
+}
+#logo {
+	width: 250px;
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}
+
+#sun {
+	width: 200px;
+	position: fixed;
+	top: 20px;
+	right:40px;
+}
+
+#sun:hover {
+cursor: url('lasso.ico'), default;
+}
+
+
+#cover {
+	transition:transform 3s;
+}
+
+#cover:hover {
+	transform: translateY(100px);
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove {
+    0%   {fill:yellow;}
+    25%  {fill:white;}
+    75%  {fill:yellow;}
+    100% {fill:white;}
+}
+@keyframes mymove {
+    0%   {fill:yellow;}
+    25%  {fill:white;}
+    75%  {fill:yellow;}
+    100% {fill:white;}
+}
+
+#moon {
+	animation-name: mymove;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+

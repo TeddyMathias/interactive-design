@@ -66,6 +66,7 @@ a {
 .heading {
 	height: 50px;
 	display: block;
+	padding-bottom: 20px;
 }
 .section {
 	padding: 30px;
@@ -76,5 +77,7 @@ a {
 
 .insta {
 	display: inline-block;
-	width: 33.3%;
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }

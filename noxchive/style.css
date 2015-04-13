@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Source Code Pro', san-serif;
+  line-height: 20pt;
   background: rgba(255,41,241,1);
   background: -moz-linear-gradient(left, rgba(255,41,241,1) 0%, rgba(241,111,92,1) 0%, rgba(179,12,245,1) 44%, rgba(112,17,109,1) 83%, rgba(41,11,8,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,41,241,1)), color-stop(0%, rgba(241,111,92,1)), color-stop(44%, rgba(179,12,245,1)), color-stop(83%, rgba(112,17,109,1)), color-stop(100%, rgba(41,11,8,1)));
@@ -13,18 +14,23 @@ body {
 
 a {
 	text-decoration: none;
+	border-bottom: 1px dotted;
 }
-
+ a:hover {
+ 	color: #F8CE54;
+ }
 .container {
 	width: 80%;
-	height: 1000px;
 	margin: 50px auto;
 	opacity: .9;
+	margin-bottom: 200px;
 
 }
 
+
+
 .site {
-	width: 40%;
+	width: 50%;
 	display: inline-block;
 	background: purple;
 	position: relative;
@@ -50,7 +56,7 @@ a {
 }*/
 
 #knox {
-	max-width: 100%;
+	width: 100%;
 	top: 0;
 	z-index: -1;
 }
@@ -62,22 +68,31 @@ a {
 #content {
 	background: white;
 	width: 100%;
+	margin: 0 auto;
 }
 .heading {
 	height: 50px;
 	display: block;
 	padding-bottom: 20px;
+	margin: 0 auto;
 }
 .section {
 	padding: 30px;
 	margin-top: 30px;
+	text-align: center;
 
 }
 
+.intro {
+	padding: 80px;
+	margin-top: 50px;
+	text-align: center;
+
+}
 
 .insta {
 	display: inline-block;
 	width: 30%;
 	padding-right: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }

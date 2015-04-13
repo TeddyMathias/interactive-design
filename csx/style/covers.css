@@ -1,0 +1,1206 @@
+/*
+body.two {
+
+
+}
+
+body.two header {
+
+
+}
+
+
+body.two h1{
+	
+
+}
+
+body.two h2 {
+
+
+	}
+
+
+body.two h3 {
+
+
+	}
+
+
+body.two p {
+
+}
+
+body.two a {
+
+
+}
+
+
+body.two #container {
+
+}
+
+body.two #intro {
+	
+
+}
+
+body.two #content {
+
+
+}
+
+
+*/
+
+
+
+
+
+/* style 1. taken from art.yale.edu */
+
+body.one {
+	margin: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	background: #ffffff;
+	background: url(http://media0.giphy.com/media/16QZ30M4tYUrC/giphy.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+body.one header {
+
+}
+
+body.one h1, body.one h2, body.one h3, body.one h4 {
+	
+	background: #ffff00;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right:20px;
+	padding-left: 20px;
+	margin-bottom: -6px;
+	margin-right: -8px;
+	margin-left: 0px;
+	margin-top: -4px;
+	line-height: 14px;
+	font-weight: bold;
+
+}
+
+body.one p {
+	background: url("images/yale.gif") repeat-y;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+body.one a {
+	color: #000000;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #000000;
+	
+}
+
+body.one a:hover {
+	color:yellow;
+}
+
+body.one #container {
+	z-index: 4;
+	top: 78px;
+	margin: 40px auto;
+	width: 448px;
+}
+
+body.one #title {
+
+}
+
+body.one #author {
+
+}
+
+
+/* style 2. taken from wwww.creativeapplications.com */
+
+body.two {
+	height: 100%;
+	display: block;
+	font-family: "nimbus-sans", Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif;
+	color: #2d2d2d;
+	background: #f1f1f1;
+
+}
+
+body.two header {
+	position: relative;
+	display: block;
+	padding: 20px 0 0;
+
+}
+
+
+body.two h1{
+	margin: 46px 0 20px;
+	font-size: 25px;
+	font-size: 1.5625rem;
+
+}
+
+body.two h2 {
+	margin: 0px 0 15px;
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.35;
+	}
+
+
+body.two p {
+	margin-bottom: 26px;
+	display: block;
+	margin: 25px 0 20px;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.6;
+}
+
+body.two a {
+	border-bottom: 1px solid #9a9a9a;
+	text-decoration: none;
+	color: #191919;
+}
+
+
+body.two #container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 91px;
+	padding-right: 91px;
+
+}
+
+body.two #title {
+
+}
+
+body.two #author {
+
+}
+
+
+
+/* style 3. taken from wwww.moma.com */
+
+body.three {
+	font-family: helveticaneue, "helvetica neue", helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	background: white;
+	text-align: center;
+	line-height: 18px;
+
+
+}
+
+body.three header {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 9999;
+	letter-spacing: 0;
+	font: 13px/1.38em "helveticaneue", "helvetica neue", helvetica, arial, sans-serif;
+	height: 65px;
+	background-color: white;
+	border-bottom: 18px solid red;
+	padding-bottom: 20px;
+
+}
+
+
+
+body.three a {
+	color: #ff3300;
+	text-decoration: none;
+	border-bottom: 0px !important;
+	text-transform: uppercase;
+
+}
+
+
+body.three #container {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	border: 10px solid gainsboro;
+
+}
+
+
+body.three #content {
+	padding: 30px;
+	padding-bottom: 200px
+
+}
+
+
+body.three #title {
+
+}
+
+body.three #author {
+
+}
+
+
+
+/* style 4. taken from wwww.wilcoworld.net */
+
+body.four {
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	font-family: Monaco,Lucida Console,Consolas,monospace;
+	letter-spacing: 1px;
+
+}
+
+
+body.four h1 {
+	border-bottom: 2px dotted black;
+	border-spacing: 20px;
+	padding-bottom: 20px;
+	
+
+}
+
+
+body.four h3 {
+	font-size: 14px;
+	line-height: 22px;
+	border-bottom: 2px dotted black;
+	border-spacing: 20px;
+	padding-bottom: 10px;
+
+}
+
+
+body.four p {
+	display: block;
+	margin: 0 0 10px;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+}
+
+body.four a {
+	color: black;
+	border-bottom: 1.5px solid red;
+	text-decoration: none;
+
+}
+
+body.four a:hover {
+	border-bottom: 1.5px solid yellow;
+
+}
+
+body.four #container {
+	padding: 50px 50px 50px 50px;
+	margin: 80px auto;
+	width: 800px;
+
+}
+
+
+body.four #title {
+
+}
+
+body.four #author {
+
+}
+
+
+
+
+/* style 5. taken from wwww.processing.org */
+
+body.five {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-color: #ddd;
+	font-family: "chaparral-pro", georgia, times, serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	font-size: 100%;
+	font-size: 0.79em;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #252525;
+
+
+}
+
+body.five header {
+	width: 900px;
+	height: 106px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	background: #0c2033 url(http://www.processing.org/img/processing-web.png) center center no-repeat;
+	background-position: bottom;
+	background-size: 900px 106px;
+	position: relative;
+
+
+}
+
+
+body.five header h1, body.five header h3 {
+	color: white;
+	margin-left: 40px;
+
+}
+
+
+body.five h3 {
+	font-size: 1.4em;
+	line-height: 30px;
+	color: #2c7bb5;
+
+
+	}
+
+
+body.five a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #2c7bb5;
+}
+
+
+
+
+body.five #container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+
+body.five #content {
+	padding: 40px 40px;
+
+}
+
+
+
+body.five #title {
+
+}
+
+body.five #author {
+
+}
+
+
+
+
+/* style 6. taken from wwww.arduino.cc */
+
+body.six {
+	background: white;
+	color: #222222;
+	font-family: 'Inconsolata';
+	font-size: .8rem;
+	line-height: 1.3rem;
+	color: #00979D;
+
+
+}
+
+body.six header {
+	background-color: #00979d;
+	padding: 80px 0px 20px 0;
+	padding-left: 40px;
+	position: fixed;
+	left: 0px;
+	top:0px;
+	width: 100%;
+
+}
+
+
+body.six h1{
+	color: white;
+	padding-left: 40
+
+}
+
+body.six h2 {
+	color: white;
+	}
+
+
+body.six h3 {
+	font-size: 1rem;
+	line-height: 1.4rem;
+	letter-spacing: .08rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #00979D;
+	font-weight: 700;
+	}
+
+
+body.six #container {
+	margin: 0;
+}
+
+
+body.six #content {
+	padding: 200px 80px 80px 40px;
+
+}
+
+
+body.six #title {
+
+}
+
+body.six #author {
+
+}
+
+
+
+
+
+
+/* style 7. taken from wwww.madebytinygiant.com */
+
+body.seven {
+	border:10px solid #4f4d51;;
+	color: #4f4d51;
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	margin: 0;
+	padding: 0;
+
+}
+
+body.seven header {
+	padding: 20px 0;
+
+}
+
+
+body.seven h1{
+	font-family: "Vollkorn","proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-size: 5.75em;
+	font-style: italic;
+	line-height: .875em;
+	
+
+}
+
+
+body.seven h3 {
+	font-family: "Vollkorn","proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-size: 1em;
+	font-style: italic;
+
+
+	}
+
+
+body.seven p {
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	line-height: 30px;
+
+}
+
+
+
+body.seven #container {
+	padding: 20px 100px;
+
+}
+
+body.seven #title {
+
+}
+
+body.seven #author {
+
+}
+
+
+
+
+
+
+
+/* style 8. taken from wwww.thestrokes.com */
+
+
+body.eight {
+	background: url(http://www.thestrokes.com/sites/thestrokes/themes/thestrokes/images/bg-body.jpg) scroll no-repeat center top #992118;
+	color:white;
+	font: 12px Helvetica,Arial,sans-serif;
+	line-height: 13px;
+
+}
+
+
+
+body.eight h1{
+	font-family: "league-gothic";
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 24pt;
+		
+
+}
+
+
+body.eight h3 {
+	 font-family: "league-gothic";
+	 color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #ead9b2;
+	font-size: 14pt;
+
+	}
+
+
+
+body.eight a {
+	color: #ead9b2;
+	text-decoration: none;
+
+}
+
+
+body.eight #container {
+	padding:20px; 
+	margin:50px 100px;
+
+}
+
+body.eight #title {
+
+}
+
+body.eight #author {
+
+}
+
+
+
+/* style 9. taken from wwww.aiga.org */
+
+@font-face{ 
+	font-family:'Interstate Ultra Black';
+	src: url('fonts/interstate_ultrablack.eot');
+	src: url('fonts/interstate_ultrablack.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/interstate_ultrablack.woff') format('woff'),
+	     url('fonts/interstate_ultrablack.ttf') format('truetype'),
+	     url('fonts/interstate_ultrablack.svg#webfont') format('svg');
+}
+
+
+body.nine {
+	background: url(http://www.aiga.org/media/images/bg.png) repeat;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	color: #525252;
+	font-size: 12px;
+
+}
+
+
+
+body.nine h1{
+	color: #2D2D2D;
+	font-family: "Interstate Ultra Black";
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+	
+
+body.nine h3 {
+	font-family: Georgia, Times New Roman, serif;
+	font-size: 18px;
+	line-height: 26px;
+	color: #DA4D49;
+	font-weight: normal;
+
+
+	}
+
+
+body.nine p {
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	color: #525252;
+	font-size: 12px;
+
+}
+
+body.nine a {
+	color: #919191;
+	font-family: Georgia,Times New Roman,serif;
+	font-size: 11px;
+	font-style: italic;
+
+}
+
+
+body.nine #container {
+	margin: 100px 100px;
+}
+
+
+body.nine #content {
+	box-shadow: 4px 4px 13px #AFAFAF;
+	background-color: white;
+	padding: 40px;
+
+
+}
+
+body.nine #title {
+
+}
+
+body.nine #author {
+
+}
+
+
+
+
+/* style 10. taken from wwww.wikipedia.com */
+body.ten {
+	background-color: #f6f6f6;
+	font-family: sans-serif;
+	font-size: 0.875em;
+	line-height: 1.6;
+
+}
+
+body.ten header {
+	width: 100%;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+
+
+
+}
+
+
+body.ten h1{
+	font-family: "Linux Libertine",Georgia,Times,serif;
+	line-height: 1.3;
+	margin-bottom: 0.25em;
+	padding: 0;
+	font-weight: normal;
+
+}
+
+
+
+
+body.ten h3 {
+	font-size: 0.875em;
+	font-weight: bold;
+
+
+
+	}
+
+
+body.ten p {
+	font-size: 0.875em;
+
+}
+
+body.ten a {
+	color:#0645ad;
+
+
+}
+
+
+body.ten #container {
+	margin:50px 10px 100px 100px;
+
+}
+
+
+body.ten #content {
+	border: 1px solid #a7d7f9;
+	padding: 20px 20px;
+
+
+}
+
+body.ten #title {
+
+}
+
+body.ten #author {
+
+}
+
+
+
+/* style 11. taken from wwww.twitter.com */
+
+body.eleven {
+	background: #f5f8fa;
+	color: #292f33;
+	font-size: 14px;
+	line-height: 18px;
+	overflow-y: scroll;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+body.eleven h1{
+	color: #66757f;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+
+}
+
+
+
+body.eleven h3 {
+	color: #8899a6;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 500;
+
+
+	}
+
+body.eleven h3:hover {
+	color: #55acee;
+}
+
+
+body.eleven a:hover {
+	color: #55acee;
+}
+
+
+body.eleven #container {
+	padding: 56px 14px 15px 14px;
+	margin: 0 auto;
+	width: 70%;
+
+}
+
+
+body.eleven #content {
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 18px 23px;
+
+}
+
+body.eleven #title {
+
+}
+
+body.eleven #author {
+
+}
+
+
+
+/* style 12. taken from wwww..com */
+
+@font-face {
+    font-family:'CooperHewitt-Bold';
+    src: url('fonts/CooperHewitt-Bold.eot');
+    src: url('fonts/CooperHewitt-Bold.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Bold.woff') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('truetype'),
+         url('fonts/CooperHewitt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family:'CooperHewitt-Book';
+    src: url('fonts/CooperHewitt-Book.eot');
+    src: url('fonts/CooperHewitt-Book.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Book.woff') format('woff'),
+         url('fonts/CooperHewitt-Book') format('woff'),
+         url('fonts/CooperHewitt-Book') format('truetype'),
+         url('fonts/CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body.twelve {
+	font-family:'CooperHewitt-Book', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14pt;
+	line-height: 1.3;
+
+}
+
+
+
+body.twelve ::selection {
+background: #FF5700;
+}
+
+body.twelve h1{
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	line-height: 1;
+	padding-top: 10px;
+	font-size: 48px;
+	padding-top: 7px;
+	position: relative;
+	z-index: 9;
+	background: #FF5700;
+	box-shadow: 5px 0 0 #FF5700,-5px 0 0 #FF5700;
+	color: rgba(0,0,0,0.8);
+	display: inline;
+	text-transform: uppercase;
+	
+
+}
+
+
+
+body.twelve h3 {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 1;
+	padding-top: 10px;
+	font-size: 18px;
+	font-size: 20px;
+	padding: 10px 0 1em 0;
+	margin-top: 0;
+
+	}
+
+
+body.twelve p {
+
+}
+
+body.twelve a {
+	color: #FF5700;
+	text-decoration: none;
+
+}
+
+
+body.twelve #container {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 100px;
+}
+
+body.twelve #title {
+
+}
+
+body.twelve #author {
+
+}
+
+
+/* style 13. taken from http://architecture.yale.edu/ */
+body.thirteen {
+	font-family: 'proxima-nova',sans-serif;
+	font-size: 12px;
+	background: #eee;
+	line-height: 13px;
+
+
+}
+
+body.thirteen header {
+
+
+}
+
+
+body.thirteen h1{
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bbb;
+	font-weight: 300;
+		
+
+}
+
+body.thirteen h2 {
+
+
+	}
+
+
+body.thirteen h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+
+
+	}
+
+
+body.thirteen p {
+
+}
+
+body.thirteen a {
+	color: grey;
+	text-decoration: none;
+
+
+}
+
+
+body.thirteen #container {
+	max-width: 78%;
+	margin: 0 auto;
+	padding: 200px 3em 0;
+	position: relative;
+	background-color: white;
+	border:1px solid #e4e4e4;
+}
+
+body.thirteen #title {
+
+}
+
+body.thirteen #author {
+
+}
+
+
+/* style 14. taken from wwww..com */
+
+body.fourteen {
+	background: url("http://www.theblackkeys.com//sites/g/files/g2000003711/f/201403/latestbg-24-03-13.jpg") repeat-y scroll center top;
+
+
+
+}
+
+body.fourteen header {
+
+
+}
+
+
+body.fourteen h1{
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #de1077;
+	margin-top: 10px;
+
+}
+
+body.fourteen h2 {
+
+
+	}
+
+
+body.fourteen h3 {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #de1077;
+
+
+	}
+
+
+body.fourteen p {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #de1077;
+	line-height: 18px;
+
+}
+
+body.fourteen a {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #de1077;
+	text-decoration: none;
+	border-bottom: 2px dotted #de1077;
+
+
+}
+
+
+body.fourteen #container {
+	background: #0475af;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	margin-top: 400px;
+
+
+}
+
+
+body.fourteen #content {
+	padding: 40px 40px;
+}
+
+
+body.fourteen #title {
+
+}
+
+body.fourteen #author {
+
+}
+
+
+/* style 15. taken from wwww.Imdb.com */
+body.fifteen {
+	background: #000000 url(http://ia.media-imdb.com/images/M/MV5BMjM1MjA0MDIwNl5BMl5BanBnXkFtZTgwNDk5ODAzNDE@._V1_.jpg) no-repeat fixed top center;
+	font-family: Verdana,Arial,sans-serif;
+	color: #333;
+	font-size: 13px;
+}
+
+body.fifteen header {
+	background: #333;
+	background: -webkit-linear-gradient(top,#646464 0,#0e0e0e 100%);
+	background: -ms-linear-gradient(top,#646464 0,#0e0e0e 100%);
+	background: linear-gradient(to bottom,#646464 0,#0e0e0e 100%);
+	border-top: 1px solid #444;
+	color: #fff;
+	font: 10pt Verdana,Arial,sans-serif;
+	height: 83px;
+	margin: 145px auto auto 0;
+	padding: 0;
+	position: relative;
+	width: 1008px;
+	z-index: 200;
+}
+
+
+body.fifteen h1, body.fifteen h2, body.fifteen h3  {
+	color: #424242;
+
+}
+
+body.fifteen header h1, body.fifteen header h3 {
+	color:white;
+	margin:auto;
+	padding: 20px 0 24px 20px;
+}
+
+body.fifteen h1 {
+	font: 24px Arial,sans-serif normal;
+
+	}
+
+body.fifteen h2 {
+
+
+	}
+
+
+body.fifteen h3 {
+	font: 18px Arial,sans-serif normal;
+
+	}
+
+
+body.fifteen p {
+	margin: .5em 0 .75em;
+	line-height: 140%;
+	padding: 0;
+}
+
+}
+
+body.fifteen a {
+	color: #136cb2;
+	text-decoration: none;
+}
+
+
+body.fifteen #container {
+	width: 1008px;
+	margin: auto;
+	
+}
+
+
+body.fifteen #content {
+	padding: 20px 21px 24px 20px;
+	background-color: #fff;
+
+}
+
+body.fifteen #title {
+
+}
+
+body.fifteen #author {
+
+}
+

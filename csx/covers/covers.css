@@ -1,0 +1,1996 @@
+nav {
+	width: 100px;
+	position:fixed;
+	left: 12px;
+	top: 12px;
+
+}
+
+.nav-container {
+
+
+
+}
+
+.next {
+
+}
+
+select {
+
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 50px;
+   width: 60px;
+   font-family: monospace;
+   -webkit-transition:width 3s;
+}
+
+select:hover {
+	width: 250px;
+
+	}
+
+option {
+	font-family: monospace;
+}/*
+body.two {
+
+
+}
+
+body.two header {
+
+
+}
+
+
+body.two h1{
+	
+
+}
+
+body.two h2 {
+
+
+	}
+
+
+body.two h3 {
+
+
+	}
+
+
+body.two p {
+
+}
+
+body.two a {
+
+
+}
+
+
+body.two #container {
+
+}
+
+body.two #intro {
+	
+
+}
+
+body.two #content {
+
+
+}
+
+
+*/
+
+
+
+
+
+/* style 1. taken from art.yale.edu */
+
+body.one {
+	margin: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	background: #ffffff;
+	background: url(http://media.giphy.com/media/qcksgcyfZGWNq/giphy.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+body.one h1 {
+	font-size: 60pt;
+	line-height: 60pt;
+
+}
+
+
+body.one h3 {
+	font-size: 24pt;
+	line-height: 30pt;
+	font-weight: light;
+}
+
+body.one h1, body.one h2, body.one h3, body.one h4 {
+	
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right:20px;
+	padding-left: 20px;
+	margin-bottom: -6px;
+	margin-right: -8px;
+	margin-left: 0px;
+	margin-top: -4px;
+	font-weight: bold;
+
+}
+
+body.one p {
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+body.one a {
+	color: #000000;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #000000;
+	
+}
+
+
+body.one #container {
+	z-index: 4;
+	top: 78px;
+	margin: 150px auto;
+	width: 448px;
+	padding: 40px 30px;
+	background: #ffff00;
+	-webkit-transition: background-color 2s;
+	transition: background-color 2s;
+}
+
+body.one #container:hover {
+	background-color: white;
+
+}
+
+body.one #author {
+
+}
+
+
+/* style 2. taken from wwww.creativeapplications.com */
+
+body.two {
+	height: 100%;
+	display: block;
+	font-family: "nimbus-sans", Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif;
+	color: #2d2d2d;
+	background: #f1f1f1;
+		background: url(images/maya.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
+
+body.two header {
+	position: relative;
+	display: block;
+	padding: 20px 0 0;
+
+}
+
+
+body.two h1{
+	font-size: 80px;
+	letter-spacing: 0px;
+	line-height: 150px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	-webkit-text-stroke: 4px;
+	-webkit-font-smoothing: antialiased;
+	border-bottom: 10px solid #2d2d2d;
+	display: inline;
+
+}
+
+
+
+
+body.two h2 {
+	margin: 0px 0 15px;
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.35;
+	}
+
+
+body.two p {
+	margin-bottom: 26px;
+	display: block;
+	margin: 25px 0 20px;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.6;
+}
+
+body.two a {
+	border-bottom: 1px solid #9a9a9a;
+	text-decoration: none;
+	color: #191919;
+	transition: color 2s;
+}
+
+body.two a:hover {
+	color:white;
+}
+
+
+
+body.two #container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 21px;
+	padding-right: 91px;
+
+}
+
+body.two #title {
+
+}
+
+body.two #author {
+
+}
+
+
+
+/* style 3. taken from wwww.moma.com */
+
+body.three {
+	font-family: helveticaneue, "helvetica neue", helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	background: white;
+	text-align: center;
+	line-height: 18px;
+
+
+}
+
+body.three header {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 9999;
+	letter-spacing: 0;
+	font: 13px/1.38em "helveticaneue", "helvetica neue", helvetica, arial, sans-serif;
+	height: 65px;
+	background-color: white;
+	border-bottom: 18px solid red;
+	padding-bottom: 20px;
+
+}
+
+body.three h1 {
+	font-size: 60pt;
+	line-height: 80pt;
+}
+
+
+body.three a {
+	color: #ff3300;
+	text-decoration: none;
+	border-bottom: 0px !important;
+	text-transform: uppercase;
+
+}
+
+body.three .author {
+	text-align: right;
+}
+
+
+body.three #container {
+	width: 700px;
+	margin: 50px auto;
+	text-align: left;
+	border: 20px solid gainsboro;
+	padding: 80px 50px;
+	  -webkit-border-image:url(images/spiral.gif) 5 5 round; /* Safari 3.1-5 */
+    -o-border-image:url(images/spiral.gif) 5 5 round; /* Opera 11-12.1 */
+    border-image:url(images/spiral.gif) 5 5 round;
+
+}
+
+
+body.three #content {
+	padding: 30px;
+	padding-bottom: 200px
+
+}
+
+
+body.three #title {
+
+}
+
+body.three #author {
+
+}
+
+
+
+/* style 4. taken from wwww.wilcoworld.net */
+
+
+@-webkit-keyframes FALL {
+  0%   { top:0; }
+  100% { top:900px; }
+}
+@-moz-keyframes FALL {
+  0%   { top:0; }
+  100% { top:900px; }
+
+}
+
+@-o-keyframes FALL {
+  0%   { top:0; }
+  100% { top:900px; }
+
+}
+@keyframes FALL {
+  0%   { top:0; }
+  100% { top:900px; }
+
+}
+
+
+body.four .rain {
+	position: fixed;
+	z-index: -10;
+	-webkit-animation: FALL 5s infinite; /* Safari 4+ */
+	-moz-animation: FALL 5s infinite; /* Fx 5+ */
+	-o-animation: FALL 5s infinite; /* Opera 12+ */
+	animation: FALL 5s infinite; /* IE 10+, Fx */
+}
+
+
+body.four .raintwo {
+	position: fixed;
+	z-index: -10;
+	-webkit-animation: FALL 10s infinite; /* Safari 4+ */
+	-moz-animation: FALL 10s infinite; /* Fx 5+ */
+	-o-animation: FALL 10s infinite; /* Opera 12+ */
+	 animation: FALL 10s infinite; /* IE 10+, Fx */
+}
+
+
+body.four .rainthree {
+	position: fixed;
+	z-index: -10;
+	-webkit-animation: FALL 15s infinite; /* Safari 4+ */
+	-moz-animation: FALL 15s infinite; /* Fx 5+ */
+	-o-animation: FALL 15s infinite; /* Opera 12+ */
+	 animation: FALL 15s infinite; /* IE 10+, Fx */
+}
+
+
+body.four {
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	font-family: Monaco,Lucida Console,Consolas,monospace;
+	letter-spacing: 1px;
+
+}
+
+
+body.four h1 {
+	border-bottom: 2px dotted black;
+	border-spacing: 20px;
+	padding-bottom: 20px;
+	
+
+}
+
+
+body.four h3 {
+	font-size: 14px;
+	line-height: 22px;
+	border-bottom: 2px dotted black;
+	border-spacing: 20px;
+	padding-bottom: 10px;
+
+}
+
+
+body.four a {
+	color: black;
+	border-bottom: 1.5px solid red;
+	text-decoration: none;
+
+}
+
+body.four a:hover {
+	border-bottom: 1.5px solid yellow;
+
+}
+
+body.four #container {
+	padding: 250px 0px 0px 0px;
+	margin: 80px auto;
+	width: 800px;
+	text-align: center;
+	z-index: 10000;
+
+}
+
+
+body.four .enter {
+	z-index: 10000;
+
+}
+
+body.four #author {
+
+}
+
+
+
+
+/* style 5. taken from wwww.processing.org */
+
+body.five {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-color: #ddd;
+	font-family: "chaparral-pro", georgia, times, serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	font-size: 100%;
+	font-size: 0.79em;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #252525;
+	background: url(images/proc.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+
+
+}
+
+body.five .in, body.five .defense, body.five .of, body.five .the, body.five .poor, body.five .image {
+	color: #bfbfbf;
+	font-size: 30pt;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	-webkit-filter: blur(1px);
+}
+
+body.five .author {
+	color: #bfbfbf;
+	-webkit-filter: blur(1px);
+	font-size: 12pt;
+	position: fixed;
+	bottom:20px;
+	right:50px;
+}
+
+
+body.five .in {
+	position: fixed;
+	top:100px;
+	right:100px;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+}
+
+body.five .defense {
+	position: fixed;
+	top: 200px;
+	right:20px;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+}
+
+body.five .of {
+	position: fixed;
+	top:300px;
+	right:30px;
+	-ms-transform: rotate(17deg); /* IE 9 */
+    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+    transform: rotate(17deg);
+
+}
+body.five .the {
+	position: fixed;
+	top:400px;
+	right:100px;
+	-ms-transform: rotate(37deg); /* IE 9 */
+    -webkit-transform: rotate(37deg); /* Chrome, Safari, Opera */
+    transform: rotate(37deg);
+
+}
+
+body.five .poor {
+	position: fixed;
+	top:550px;
+	right:100px;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+}
+
+body.five .image {
+	position: fixed;
+	top:700px;
+	right:100px;
+	-ms-transform: rotate(-27deg); /* IE 9 */
+    -webkit-transform: rotate(-27deg); /* Chrome, Safari, Opera */
+    transform: rotate(-27deg);
+
+}
+
+
+body.five header h1, body.five header h3 {
+	color: white;
+	margin-left: 40px;
+
+}
+
+
+
+body.five a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #2c7bb5;
+}
+
+
+
+
+body.five #container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+
+body.five #content {
+	padding: 40px 40px;
+
+}
+
+
+
+body.five #title {
+
+}
+
+body.five #author {
+
+}
+
+
+
+
+/* style 6. taken from wwww.arduino.cc */
+
+body.six {
+	background: white;
+	color: #222222;
+	font-family: 'Inconsolata';
+	color: #00979D;
+	background: url(images/bg.png) repeat;
+
+}
+
+
+body.six h1{
+	color: white;
+	font-size: 40pt;
+	padding-left: 40
+
+}
+
+body.six h2 {
+	color: white;
+	}
+
+
+body.six h3 {
+	font-size: 1rem;
+	line-height: 1.4rem;
+	letter-spacing: .08rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	}
+
+
+body.six #container {
+	-moz-border-radius: 600px;
+	-webkit-border-radius: 600px;
+	border-radius: 600px;
+	background-color: #00979D;
+	width: 300px;
+	margin:200px auto;
+	text-align: center;
+	padding: 50px 50px;
+	transition:border-radius .5s;
+}
+
+body.six #container:hover {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+body.six a {
+	text-decoration: none;
+
+}
+
+
+body.six #author {
+
+}
+
+
+
+
+
+
+/* style 7. taken from wwww.madebytinygiant.com */
+
+body.seven {
+	color: #4f4d51;
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	margin: 0;
+	padding: 0;
+
+}
+
+body.seven header {
+	padding: 20px 0;
+
+}
+
+
+body.seven h1{
+	font-family: "Vollkorn","proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-size: 5.75em;
+	font-style: italic;
+	line-height: .875em;
+	
+
+}
+
+
+body.seven h3 {
+	font-family: "Vollkorn","proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	font-size: 1em;
+	font-style: italic;
+
+
+	}
+
+
+body.seven p {
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	line-height: 30px;
+
+}
+
+body.seven a {
+	color: black;
+	text-decoration: none;
+}
+
+
+body.seven #container {
+	padding: 20px 100px;
+	margin: 100px auto;
+	width: 50%;
+
+}
+
+.flip {
+	display: inline-block;
+	-webkit-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+}
+
+body.seven #title {
+
+}
+
+body.seven #author {
+
+}
+
+
+
+
+
+
+
+/* style 8. taken from wwww.thestrokes.com */
+
+
+body.eight {
+	background: url(http://www.thestrokes.com/sites/thestrokes/themes/thestrokes/images/bg-body.jpg) scroll no-repeat center top #992118;
+	color:white;
+	font: 12px Helvetica,Arial,sans-serif;
+	line-height: 13px;
+
+}
+
+
+
+body.eight h1{
+	font-family: "league-gothic";
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 100pt;
+	line-height: 110pt;
+		
+
+}
+
+
+body.eight h3 {
+	 font-family: "league-gothic";
+	 color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #ead9b2;
+	font-size: 14pt;
+
+	}
+
+
+
+body.eight a {
+	color: #ead9b2;
+	text-decoration: none;
+
+}
+
+
+body.eight #container {
+	padding:20px; 
+	margin:50px 100px;
+
+}
+
+body.eight #title {
+
+}
+
+body.eight #author {
+
+}
+
+
+
+/* style 9. taken from wwww.aiga.org */
+
+
+@-webkit-keyframes FLICK {
+  0%   { opacity: .7; }
+  10%   { opacity: .8; }
+  30%   { opacity: .6; }
+  60%   { opacity: .9; }
+  80%   { opacity: .8; }
+  100% { opacity: .7; }
+}
+@-moz-keyframes FLICK {
+  0%   { opacity: .7; }
+  10%   { opacity: .8; }
+  30%   { opacity: .6; }
+  60%   { opacity: .9; }
+  80%   { opacity: .8; }
+  100% { opacity: .7; }
+}
+@-o-keyframes FLICK {
+  0%   { opacity: .7; }
+  10%   { opacity: .8; }
+  30%   { opacity: .6; }
+  60%   { opacity: .9; }
+  80%   { opacity: .8; }
+  100% { opacity: .7; }
+}
+@keyframes FLICK {
+  0%   { opacity: .7; }
+  10%   { opacity: .8; }
+  30%   { opacity: .6; }
+  60%   { opacity: .9; }
+  80%   { opacity: .8; }
+  100% { opacity: .7; }
+}
+
+
+
+@font-face{ 
+	font-family:'Interstate Ultra Black';
+	src: url('fonts/interstate_ultrablack.eot');
+	src: url('fonts/interstate_ultrablack.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/interstate_ultrablack.woff') format('woff'),
+	     url('fonts/interstate_ultrablack.ttf') format('truetype'),
+	     url('fonts/interstate_ultrablack.svg#webfont') format('svg');
+}
+
+
+body.nine {
+	background: url(images/bg.png) repeat;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	color: #525252;
+	font-size: 12px;
+
+
+}
+
+body.nine h1, body.nine h3 {
+	-webkit-animation: FLICK 5s infinite; /* Safari 4+ */
+	-moz-animation: FLICK 5s infinite; /* Fx 5+ */
+	-o-animation: FLICK 5s infinite; /* Opera 12+ */
+	 animation: FLICK 5s infinite; /* IE 10+, Fx */
+}
+
+
+body.nine h1{
+	color: #2D2D2D;
+	font-family: "Interstate Ultra Black";
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 120px;
+	padding: 5px 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background-color: white;
+	padding-bottom: 0;
+	display: inline;
+
+}
+	
+
+body.nine h3 {
+	color: #2D2D2D;
+	font-family: "Interstate Ultra Black";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline;
+	background-color: white;
+	padding-bottom: 0;
+	-ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(70deg);
+
+	}
+
+
+body.nine p {
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	color: #525252;
+	font-size: 12px;
+
+}
+
+body.nine a {
+	text-decoration: none;
+
+
+}
+
+
+body.nine #container {
+	margin: 100px 100px;
+
+}
+
+
+body.nine #content {
+	box-shadow: 4px 4px 13px #AFAFAF;
+	background-color: white;
+	padding: 40px;
+
+
+}
+
+body.nine #title {
+
+
+}
+
+body.nine #author {
+
+
+}
+
+
+
+
+/* style 10. taken from wwww.wikipedia.com */
+body.ten {
+	background-color: #f6f6f6;
+	font-family: sans-serif;
+	font-size: 0.875em;
+	line-height: 1.6;
+
+}
+
+body.ten header {
+	width: 100%;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+
+
+
+}
+
+
+body.ten h1{
+	font-family: "Linux Libertine",Georgia,Times,serif;
+	line-height: 1.3;
+	margin-bottom: 0.25em;
+	padding: 200px 100px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 60pt;
+
+}
+
+body.ten h1:hover{
+	background: url(images/poor.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body.ten h1:hover .strike {
+	text-decoration: line-through;
+}
+
+
+
+body.ten h3 {
+	font-size: 0.875em;
+	font-weight: bold;
+
+	}
+
+
+body.ten p {
+	font-size: 0.875em;
+
+}
+
+body.ten a {
+	color:#0645ad;
+	text-decoration: none;
+
+}
+
+
+body.ten #container {
+	margin:50px 10px 100px 100px;
+
+}
+
+
+body.ten #content {
+	border: 1px solid #a7d7f9;
+	padding: 20px 20px;
+
+
+}
+
+body.ten #title {
+
+}
+
+body.ten #author {
+
+}
+
+
+
+/* style 11. taken from wwww.twitter.com */
+
+body.eleven {
+	background: #f5f8fa;
+	color: #292f33;
+	font-size: 14px;
+	line-height: 18px;
+	overflow-y: scroll;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+body.eleven h1{
+	color: #66757f;
+	font-size: 900px;
+	font-weight: 300;
+	line-height: 22px;
+	transition:font-size 5s;
+
+
+}
+body.eleven h1:hover{
+	color: #66757f;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 22px;
+	position: fixed;
+	top: 500px;
+
+}
+
+
+
+body.eleven h3 {
+	color: #8899a6;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 500;
+
+
+	}
+
+body.eleven h3:hover {
+	color: #55acee;
+}
+
+
+body.eleven a{
+	color: #55acee;
+	text-decoration: none;
+}
+
+
+body.eleven #container {
+	padding: 56px 14px 15px 14px;
+	margin: 0 auto;
+	width: 70%;
+
+}
+
+
+body.eleven #content {
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 18px 23px;
+
+}
+
+body.eleven #title {
+
+}
+
+body.eleven #author {
+
+}
+
+
+
+/* style 12. taken from wwww..com */
+
+@font-face {
+    font-family:'CooperHewitt-Bold';
+    src: url('fonts/CooperHewitt-Bold.eot');
+    src: url('fonts/CooperHewitt-Bold.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Bold.woff') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('truetype'),
+         url('fonts/CooperHewitt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family:'CooperHewitt-Book';
+    src: url('fonts/CooperHewitt-Book.eot');
+    src: url('fonts/CooperHewitt-Book.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Book.woff') format('woff'),
+         url('fonts/CooperHewitt-Book') format('woff'),
+         url('fonts/CooperHewitt-Book') format('truetype'),
+         url('fonts/CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body.twelve {
+	font-family:'CooperHewitt-Book', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14pt;
+	line-height: 1.3;
+
+}
+
+
+
+body.twelve ::selection {
+background: #FF5700;
+}
+
+body.twelve h1{
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	line-height: 31px;
+	padding-top: 10px;
+	font-size: 68px;
+	padding-top: 7px;
+	background: #FF5700;
+	color: rgba(0,0,0,0.8);
+	display: inline;
+	text-transform: uppercase;
+	transition:line-height 1s;
+	
+}
+
+body.twelve h1:hover{
+	line-height: 70px;
+}
+
+
+body.twelve h3 {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 1;
+	padding-top: 10px;
+	font-size: 18px;
+	font-size: 20px;
+	padding: 10px 0 1em 0;
+	margin-top: 0;
+
+	}
+
+
+body.twelve p {
+
+}
+
+body.twelve a {
+	color: #FF5700;
+	text-decoration: none;
+
+}
+
+
+body.twelve #container {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 100px;
+}
+
+body.twelve #title {
+
+}
+
+body.twelve #author {
+
+}
+
+
+/* style 13. taken from http://architecture.yale.edu/ */
+body.thirteen {
+	font-family: 'proxima-nova',sans-serif;
+	font-size: 12px;
+	background: #eee;
+	line-height: 13px;
+
+
+}
+
+body.thirteen header {
+
+
+}
+
+
+body.thirteen h1{
+	font-size: 30pt;
+	padding-bottom: 10px;
+	font-weight: 300;
+	line-height: 35pt;
+		
+
+}
+
+body.thirteen h2 {
+
+
+	}
+
+
+body.thirteen h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+
+
+	}
+
+
+body.thirteen p {
+
+}
+
+body.thirteen a {
+	color: grey;
+	text-decoration: none;
+
+
+}
+
+
+body.thirteen .container {
+	max-width: 40%;
+	margin: 280px auto;
+	padding: 50px 100px 50px 40px;
+	position: relative;
+	background-color: white;
+	border:1px solid #e4e4e4;
+	-webkit-box-shadow: 100px 100px 50px #888888;
+	transition:-webkit-box-shadow 5s;
+
+}
+
+body.thirteen .container:hover {
+	-webkit-box-shadow: -100px -100px 50px #00fdff;
+
+}
+
+
+
+body.thirteen #title {
+
+}
+
+body.thirteen #author {
+
+}
+
+
+/* style 14. taken from wwww..com */
+
+@-webkit-keyframes SPIN {
+  0%   { -ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% { -ms-transform: rotate(2000deg);-webkit-transform: rotate(5000deg);transform: rotate(5000deg); }
+}
+@-moz-keyframes SPIN {
+  0%   { -ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% { -ms-transform: rotate(2000deg);-webkit-transform: rotate(5000deg);transform: rotate(5000deg); }
+}
+
+@-o-keyframes SPIN {
+  0%   { -ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% { -ms-transform: rotate(2000deg);-webkit-transform: rotate(5000deg);transform: rotate(5000deg); }
+
+}
+@keyframes SPIN {
+  0%   { -ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg); }
+  100% { -ms-transform: rotate(2000deg);-webkit-transform: rotate(5000deg);transform: rotate(5000deg); }
+
+}
+
+
+
+body.fourteen {
+	
+
+}
+
+body.fourteen #spiral {
+	-webkit-animation: SPIN 5s infinite; /* Safari 4+ */
+	-moz-animation: SPIN 5s infinite; /* Fx 5+ */
+	-o-animation: SPIN 5s infinite; /* Opera 12+ */
+	animation: SPIN 5s infinite; /* IE 10+, Fx */
+	position: fixed;
+	top: -700px;
+	left: -700px;
+	z-index: -1;
+
+}
+
+
+body.fourteen h1{
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #de1077;
+	margin-top: 10px;
+
+}
+
+body.fourteen h2 {
+
+
+	}
+
+
+body.fourteen h3 {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #de1077;
+
+
+	}
+
+
+body.fourteen p {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #de1077;
+	line-height: 18px;
+
+}
+
+body.fourteen a {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #de1077;
+	text-decoration: none;
+	border-bottom: 2px dotted #de1077;
+
+
+}
+
+
+body.fourteen #container {
+	background: #0475af;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 300px;
+	padding: 30px;
+
+
+}
+
+
+body.fourteen #content {
+	padding: 40px 40px;
+}
+
+
+body.fourteen #title {
+
+}
+
+body.fourteen #author {
+
+}
+
+
+/* style 15. taken from wwww.Imdb.com */
+body.fifteen {
+	font-family: Verdana,Arial,sans-serif;
+	color: #333;
+	font-size: 13px;
+}
+
+
+body.fifteen h1, body.fifteen h2, body.fifteen h3  {
+	color: white;
+
+}
+
+body.fifteen header h1, body.fifteen header h3 {
+	color:white;
+	margin:auto;
+	padding: 20px 0 24px 20px;
+}
+
+body.fifteen h1 {
+	font: 34px Arial,sans-serif normal;
+
+	}
+
+body.fifteen h2 {
+
+
+	}
+
+
+body.fifteen h3 {
+	font: 18px Arial,sans-serif normal;
+
+	}
+
+
+body.fifteen p {
+	margin: .5em 0 .75em;
+	line-height: 140%;
+	padding: 0;
+}
+
+
+body.fifteen a {
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+
+body.fifteen #container {
+	width: 500px;
+	margin: 200px auto;
+	padding: 100px 50px;
+	background: #333;
+	background: -webkit-linear-gradient(top,#646464 0,#0e0e0e 100%);
+	background: -ms-linear-gradient(top,#646464 0,#0e0e0e 100%);
+	background: linear-gradient(to bottom,#646464 0,#0e0e0e 100%);
+	
+}
+
+
+body.fifteen #content {
+	padding: 20px 21px 24px 20px;
+
+}
+
+body.fifteen #title {
+
+}
+
+body.fifteen #author {
+
+}
+
+
+
+
+/*sixteen*/
+
+@font-face {
+    font-family:'CooperHewitt-Bold';
+    src: url('fonts/CooperHewitt-Bold.eot');
+    src: url('fonts/CooperHewitt-Bold.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Bold.woff') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('woff'),
+         url('fonts/CooperHewitt-Bold') format('truetype'),
+         url('fonts/CooperHewitt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family:'CooperHewitt-Book';
+    src: url('fonts/CooperHewitt-Book.eot');
+    src: url('fonts/CooperHewitt-Book.eot') format('embedded-opentype'),
+         url('fonts/CooperHewitt-Book.woff') format('woff'),
+         url('fonts/CooperHewitt-Book') format('woff'),
+         url('fonts/CooperHewitt-Book') format('truetype'),
+         url('fonts/CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body.sixteen {
+	font-family:'CooperHewitt-Book', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14pt;
+	line-height: 1.3;
+	background: url(images/glitch.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+
+body.sixteen ::selection {
+background: #FF5700;
+}
+
+body.sixteen h1{
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	line-height: 80px;
+	padding-top: 100px;
+	font-size: 80px;
+	padding-top: 7px;
+	color: rgba(0,0,0,0.6);
+	display: inline;
+	text-transform: uppercase;
+	transition:line-height 1s;
+	
+}
+
+body.sixteen h1:hover{
+	line-height: 0px;
+}
+
+
+body.sixteen h3 {
+	font-family: 'CooperHewitt-Bold', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 0;
+	padding-top: 10px;
+	font-size: 18px;
+	font-size: 20px;
+	padding: 10px 0 1em 0;
+	margin-top: 20px;
+
+	}
+
+
+body.sixteen p {
+
+}
+
+body.sixteen a {
+	text-decoration: none;
+
+
+}
+
+
+body.sixteen #container {
+	width:500px;
+	margin: 100px auto;
+	padding: 100px 40px;
+	background: yellow;
+	transition:opacity 2s;
+
+}
+
+body.sixteen #container:hover {
+	opacity: 0;
+}
+
+body.sixteen #title {
+
+}
+
+body.sixteen #author {
+
+}
+
+
+/*seventeen*/
+@font-face{ 
+	font-family:'Interstate Ultra Black';
+	src: url('fonts/interstate_ultrablack.eot');
+	src: url('fonts/interstate_ultrablack.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/interstate_ultrablack.woff') format('woff'),
+	     url('fonts/interstate_ultrablack.ttf') format('truetype'),
+	     url('fonts/interstate_ultrablack.svg#webfont') format('svg');
+}
+
+
+body.seventeen {
+	font-family: "Bitter";
+	background: url(images/maze.png) repeat;
+
+}
+
+
+body.seventeen header {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	z-index: -1;
+
+}
+
+body.seventeen .in, body.seventeen .defense, body.seventeen .of, body.seventeen .the, body.seventeen .poor, body.seventeen .image {
+	font-family: 'Interstate Ultra Black';
+	color: #3f3f3f;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+body.seventeen .in {
+	position: fixed;
+	-webkit-filter: blur(4px);
+	font-size: 12pt;
+	top:130px;
+	right:400px;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+}
+
+body.seventeen .defense {
+	-webkit-filter: blur(4px);
+	position: fixed;
+	font-size: 26pt;
+	top: 150px;
+	right:400px;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+}
+
+body.seventeen .of {
+	-webkit-filter: blur(3px);
+	position: fixed;
+	font-size: 40pt;
+	top:200px;
+	right:400px;
+	-ms-transform: rotate(17deg); /* IE 9 */
+    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+    transform: rotate(17deg);
+
+}
+body.seventeen .the {
+	-webkit-filter: blur(2px);
+	position: fixed;
+	font-size: 50pt;
+	top:260px;
+	right:400px;
+	-ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+
+}
+
+body.seventeen .poor {
+	-webkit-filter: blur(1px);
+	position: fixed;
+	font-size: 100pt;
+	top:320px;
+	right:400px;
+	-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+
+}
+
+body.seventeen .image {
+	position: fixed;
+	font-size: 150pt;
+	top:500px;
+	right:400px;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+}
+
+
+
+body.seventeen h3 {
+	border-bottom: 2px dotted red;
+	display: inline;
+
+
+	}
+
+
+body.seventeen p {
+	font-size: 10pt;
+
+}
+
+body.seventeen a {
+	text-decoration: none;
+	border-bottom: 2px dotted red;
+	margin-bottom: 1px;
+	color: black;
+
+
+}
+
+
+body.seventeen #container {
+	width: 500px;
+
+}
+
+
+/*eighteen*/
+
+@-webkit-keyframes BLINK {
+  0%   { background:black; }
+  50% { background: white; }
+}
+@-moz-keyframes BLINK {
+  0%   { background:black; }
+  50% { background: white; }
+}
+
+@-o-keyframes BLINK {
+  0%   { background:black; }
+  50% { background: white; }
+
+}
+@keyframes BLINK {
+    0%  { background:black; }
+  50% { background: white; }
+
+}
+
+
+
+body.eighteen {
+	font-family: 'Inconsolata';
+	font-size: 10pt;
+	-webkit-animation: BLINK 5s infinite; /* Safari 4+ */
+	-moz-animation: BLINK 5s infinite; /* Fx 5+ */
+	-o-animation: BLINK 5s infinite; /* Opera 12+ */
+	animation: BLINK 5s infinite; /* IE 10+, Fx */
+}
+
+
+body.eighteen header {
+	width: 100%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+
+}
+
+body.eighteen h1{
+	font-size: 100pt;
+	font-weight:400;
+	
+}
+
+
+body.eighteen h3 {
+	font-size: 50pt;
+	font-weight:400;
+
+	}
+
+
+body.eighteen p {
+
+}
+
+body.eighteen a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+
+
+
+}
+
+
+body.eighteen #container {
+	width: 100%;
+	margin: 10px auto;
+	padding: 20px 40px;
+
+}
+
+body.eighteen .eyes {
+	position: fixed;
+	width: 200px;
+	top:200px;
+	left: 100px;
+}
+
+/*nineteen*/
+
+body.nineteen {
+
+	font-family: 'Slabo 27px', serif;
+	font-size: 9pt;
+	background: linear-gradient(red, blue);
+	text-align: center;
+	color: white;
+
+}
+
+body.nineteen header {
+	position: fixed;
+	top: 0px;
+	color: white;
+
+}
+
+body.nineteen h1{ 
+	font-size: 24pt;
+	letter-spacing: 2px;
+}
+
+
+body.nineteen h3 {
+
+	}
+
+
+body.nineteen p {
+	font-style: 9px;
+
+}
+
+body.nineteen a {
+	color: #ff8189;
+	text-transform: uppercase;
+	text-decoration: none;
+
+
+
+}
+
+
+body.nineteen #container {
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+	background: url(http://media.giphy.com/media/ONm7TiPj6xzEc/giphy.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: scroll;
+	margin: 100px auto;
+	opacity: 1;
+	color: white;
+
+}
+
+
+body.nineteen #content {
+	padding: 250px 100px;
+}
+
+
+/*twenty*/
+@font-face{ 
+	font-family:'Interstate Ultra Black';
+	src: url('fonts/interstate_ultrablack.eot');
+	src: url('fonts/interstate_ultrablack.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/interstate_ultrablack.woff') format('woff'),
+	     url('fonts/interstate_ultrablack.ttf') format('truetype'),
+	     url('fonts/interstate_ultrablack.svg#webfont') format('svg');
+}
+
+body.twenty {
+
+  background: -webkit-linear-gradient(#00fdff, #24de99); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#00fdff, #24de99); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#00fdff, #24de99); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#00fdff, #24de99); /* Standard syntax */
+  background-attachment: fixed;
+  font-family: Georgia;
+  font-size: 10pt;
+  line-height: 15pt;
+}
+
+
+body.twenty header {
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	transform:rotate(-90deg);
+	left: -120px;
+	top: 290px;
+	position: fixed;
+}
+
+body.twenty h1{
+	font-family: "Interstate Ultra Black";
+	opacity: .8;
+	font-size: 70pt;
+	line-height: 100px;
+	letter-spacing: 1px;
+	 background: -webkit-linear-gradient(#00fdff, #24de99);
+ 	 -webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+
+
+body.twenty h3 {
+	font-family: "Interstate Ultra Black";
+	font-size: 20pt;
+	 background: -webkit-linear-gradient(#00fdff, #24de99);
+ 	 -webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+}
+	}
+
+
+body.twenty p {
+
+}
+
+body.twenty a {
+	color: #128cec;
+	text-decoration: none;
+	border-bottom: 1px solid #128cee;
+
+
+}
+
+
+body.twenty #container {
+	width: 40%;
+	margin: 50px auto;
+	padding: 10px 50px;
+	background: -webkit-linear-gradient(#24de99, #00fdff); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#24de99, #00fdff); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#24de99, #00fdff); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#24de99, #00fdff); /* Standard syntax */
+  	background-attachment: fixed;
+	color: #048dfb;
+
+}
+
+
+
+
+

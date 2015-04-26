@@ -1,0 +1,47 @@
+	body {
+		background-color: #50B4C0;
+	}
+
+#set{
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: -100;
+	width: 1200px;
+
+}
+	#cover {
+		width: 464px;
+		height: 464px;
+		background: no-repeat;
+		background-size: 120%;
+		position: fixed;
+		top:49px;
+		left:390px;
+		opacity: .7;
+		-webkit-filter: saturate(7.8);
+		
+	}
+
+	#cover-wrap {
+	
+		display: inline-block;
+
+	}
+
+	.title {
+		margin: 0 auto;
+		width: 90%;
+	}
+	h2 {
+		color: white;
+		font-size: 30pt;
+		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: black;
+	}
+
+	audio{
+		display: none;
+
+	}
+

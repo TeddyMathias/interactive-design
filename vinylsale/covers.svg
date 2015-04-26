@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<rect x="-12" fill="#50B4C0" width="1050.1" height="768"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-12" y1="102" x2="718.2" y2="102" gradientTransform="matrix(1 0 0 -1 0 768)">
+	<stop  offset="0" style="stop-color:#2A7D8B"/>
+	<stop  offset="1" style="stop-color:#246586"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="281.7,564 -12,768 491.1,768 718.2,565.6 "/>
+<g>
+	<rect x="206.2" y="466.6" fill="#7C6C78" width="580.3" height="99"/>
+	<polygon fill="#B19490" points="206.1,467 281.8,437 826,437 786.5,466.6 	"/>
+	<polygon fill="#554B65" points="786,565.6 826,532.6 826,437 786,466.6 	"/>
+</g>
+<rect x="315.2" y="23" fill="#FFFFFF" stroke="#9F9E9E" stroke-miterlimit="10" width="436.5" height="436.5"/>
+<polygon fill="#E6E6E6" points="728.5,440.8 333.2,440.8 333.2,45.5 "/>
+<polyline fill="#554B65" points="282,566 282,467 315.2,459 752,459 718,466.6 718,566 "/>
+<text transform="matrix(1 0 0 1 397.5002 527.7275)" fill="#7C6C78" font-family="'ComicSansMS'" font-size="28.1035">Used Vinyl (Free)</text>
+</svg>

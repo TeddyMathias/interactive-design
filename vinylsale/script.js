@@ -17,9 +17,14 @@ $.ajax({
       var randomCollection = collection[Math.floor(Math.random()*collection.length)];
       var band = randomCollection.bandnames.text;
      
+     
        if(i == 6) {
-           $("#player").append('<source src="http://translate.google.com/translate_tts?tl=fr&amp;q='+ band +'" type="audio/mpeg">');
+        
               $(".title").append('<h2>'+ band + '</h2>');
+               var band = band.replace(/\s+/g, '');
+              var band = band.replace('&', 'and');
+              var band = band.replace('"', '');
+                  $("#player").append('<source src="http://translate.google.com/translate_tts?tl=fr&amp;q='+ band +'" type="audio/mpeg">');
 
 
        } 
@@ -52,6 +57,7 @@ $.ajax({
 
       var randomCollection = collection[Math.floor(Math.random()*collection.length)];
       var music = randomCollection.ethnomusic.href;
+
      
        if(i == 6) {
            $("#music").append('<source src="'+ music +'" type="audio/mpeg">');
@@ -108,7 +114,7 @@ function randomizeFonts() {
   if (window.jQuery) {
     elements = jQuery('div, p, td, li, span, button, a, strong, h1, h2, h3, h4, h5, h6');
     families = jQuery.unique(elements.map(function() { return jQuery(this).css('font-family') }));
-    families.push("impact","helvetica");
+    families.push("impact","helvetica","frijole","bangers");
  
     elements.each(function() {
       jQuery(this).css('font-family', families[Math.floor(Math.random()*families.length)]);
@@ -122,3 +128,8 @@ function randomizeFonts() {
 }
  
 randomizeFonts();
+
+
+$('#next').click(function() {
+    location.reload();
+});

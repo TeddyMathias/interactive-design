@@ -10,6 +10,23 @@
 	width: 1200px;
 
 }
+
+#arrow {
+	width: 100px;
+	z-index: 10;
+	position: fixed;
+	right: 140px;
+	top: 350px;
+	opacity: .7;
+	transition:width .2s;
+	cursor: pointer;
+
+}
+
+#arrow:hover {
+	width:110px;
+	opacity: 1;
+}
 	#cover {
 		width: 464px;
 		height: 464px;
@@ -19,7 +36,7 @@
 		top:49px;
 		left:390px;
 		opacity: .7;
-		-webkit-filter: saturate(7.8);
+		-webkit-filter: saturate(4);
 		
 	}
 

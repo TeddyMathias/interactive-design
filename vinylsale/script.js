@@ -23,7 +23,7 @@ var band = band.replace('&', 'and');
 var band = band.replace('"', '');
 var lang = ['fr', 'de'];
 var lan = lang[Math.floor(Math.random() * lang.length)];
-$("#player").append('<source id="voice-'+lan+'" src="http://translate.google.com/translate_tts?tl='+lan+'&amp;q='+ band +'" type="audio/mpeg">');
+$("#player").append('<source id="voice-'+band+'" src="http://translate.google.com/translate_tts?tl='+lan+'&amp;q='+ band +'" type="audio/mpeg">');
 }
 
 // adds the text and the links from the first property into the list

@@ -1,0 +1,40 @@
+body {
+background-color: #A5A9AA;
+font-family: 'helvetica', sans-serif;
+font-size: 11pt;
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+color: white;
+line-height: 15pt;
+
+}
+.container {
+width: 40%;
+margin:100px auto;
+}
+.question {
+color: #494E4E;
+display: block;
+}
+h1 {
+font-size: 28pt;
+line-height:15px;
+color:white;
+
+}
+h2 {
+font-size: 12pt;
+line-height:15px;
+color: #494E4E;
+
+
+}
+a {
+color:#494E4E;
+text-decoration: none;
+border-bottom: 1px solid;
+}
+
+hr {
+	margin-bottom: 50px;
+}

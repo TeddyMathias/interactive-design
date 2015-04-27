@@ -18,12 +18,26 @@ var band = randomCollection.bandnames.text;
 if(i == 6) {
 
 $(".title").append('<h2>'+ band + '</h2>');
-var band = band.replace(/\s+/g, '');
+var band = band.replace(/\s+/g, '-');
 var band = band.replace('&', 'and');
 var band = band.replace('"', '');
 var lang = ['fr', 'de'];
 var lan = lang[Math.floor(Math.random() * lang.length)];
 $("#player").append('<source id="voice-'+band+'" src="http://translate.google.com/translate_tts?tl='+lan+'&amp;q='+ band +'" type="audio/mpeg">');
+/*
+var worte = new SpeechSynthesisUtterance(band);
+var stimmen = window.speechSynthesis.getVoices();
+var voice = ['9', '11','8'];
+var vox = voice[Math.floor(Math.random() * voice.length)];
+
+worte.voice = stimmen[vox];
+worte.pitch = 1;
+worte.rate = 1;
+
+
+setInterval(function () {window.speechSynthesis.speak(worte)},2000);
+*/
+
 }
 
 // adds the text and the links from the first property into the list
@@ -105,3 +119,4 @@ randomizeFonts();
 $('#next').click(function() {
 location.reload();
 });
+

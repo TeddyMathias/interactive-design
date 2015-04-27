@@ -24,7 +24,9 @@ $.ajax({
                var band = band.replace(/\s+/g, '');
               var band = band.replace('&', 'and');
               var band = band.replace('"', '');
-                  $("#player").append('<source src="http://translate.google.com/translate_tts?tl=fr&amp;q='+ band +'" type="audio/mpeg">');
+              var lang = ['fr', 'de'];
+              var lan = lang[Math.floor(Math.random() * lang.length)];
+              $("#player").append('<source src="http://translate.google.com/translate_tts?tl='+lan+'&amp;q='+ band +'" type="audio/mpeg">');
 
 
        } 

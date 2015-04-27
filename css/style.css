@@ -1,76 +1,58 @@
 body {
-	  background: url(http://media0.giphy.com/media/cymJ0dgIf9vR6/giphy.gif) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
- 	 background-size: cover;
+background: url(http://media0.giphy.com/media/cymJ0dgIf9vR6/giphy.gif) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
-
 body, h2, a {
-	font-family: 'Inconsolata';
-	color:black;
-	font-weight: lighter;
-	
+font-family: 'Inconsolata';
+color:black;
+font-weight: lighter;
 
 }
-
-
-
-
 h2 {
-	margin-bottom: 40px;
+margin-bottom: 40px;
 }
-
 a {
-	color:rgb(200,20,100);
-	text-decoration: none;
-	text-shadow:   1px 0px #eee, 0px 1px #000,
-               2px 1px #eee, 1px 2px #000,
-               3px 2px #eee, 2px 3px #000,
-               4px 3px #eee, 3px 4px #000,
-               5px 4px #eee, 4px 5px #000,
-               6px 5px #eee, 5px 6px #000,
-               7px 6px #eee, 6px 7px #000,
-               8px 7px #eee, 7px 8px #000,
-               8px 8px #eee;
-    transition:2s;
-    -webkit-transition:2s;
+color:rgb(200,20,100);
+text-decoration: none;
+text-shadow:   1px 0px #eee, 0px 1px #000,
+2px 1px #eee, 1px 2px #000,
+3px 2px #eee, 2px 3px #000,
+4px 3px #eee, 3px 4px #000,
+5px 4px #eee, 4px 5px #000,
+6px 5px #eee, 5px 6px #000,
+7px 6px #eee, 6px 7px #000,
+8px 7px #eee, 7px 8px #000,
+8px 8px #eee;
+transition:2s;
+-webkit-transition:2s;
 }
 a:hover {
-
-	text-shadow:none;
-
+text-shadow:none;
 }
-
 .button {
-
-    padding: 10px 15px;
-    background: white;
-    color: black;
-    line-height: 50px;
-    transition:background .5s;
-    font-size: 18pt;
+padding: 10px 15px;
+background: white;
+color: black;
+line-height: 50px;
+transition:background .5s;
+font-size: 18pt;
 }
-
-
 .button :hover {
-    background: #000000;
-    color: #FFF;
-    line-height: 50px;
+background: #000000;
+color: #FFF;
+line-height: 50px;
 }
-
 #container {
-	margin: 100px auto;
-	width: 500px;
-	text-align: center;
-	background-color: white;
-	padding: 50px 30px;
-	opacity: .8;
-
+margin: 100px auto;
+width: 500px;
+text-align: center;
+background-color: white;
+padding: 50px 30px;
+opacity: .8;
 }
-
-
 .white {
-	color: white;
+color: white;
 }
-

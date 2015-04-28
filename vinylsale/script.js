@@ -1,9 +1,8 @@
 $( document ).ready(function() {
     var vid = document.getElementById("music");
-	vid.volume = 0.7;
+	vid.volume = 0.3;
 
 });
-
 
 
 
@@ -32,15 +31,16 @@ var lan = lang[Math.floor(Math.random() * lang.length)];
 */
 var worte = new SpeechSynthesisUtterance(band);
 var stimmen = window.speechSynthesis.getVoices();
-var voice = ['2','3', '4','5', '6','7',];
+var voice = ['3', '4','5', '6','7',];
 var vox = voice[Math.floor(Math.random() * voice.length)];
 worte.voice = stimmen[vox];
 worte.lang = 'fr';
-var rhythm = Math.floor((Math.random() * 5000) + 100);
-worte.pitch = 1;
 worte.rate = 1;
-var rhythm = Math.floor((Math.random() * 5000) + 100);
-setInterval(function () {window.speechSynthesis.speak(worte)},rhythm);
+var rhythm = Math.floor((Math.random() * 2000) + 100);
+setInterval(function () {
+	var note = Math.floor((Math.random() * 2) + .8);
+	worte.pitch = note;
+	window.speechSynthesis.speak(worte)},rhythm);
 }
 // adds the text and the links from the first property into the list
 }
@@ -92,7 +92,7 @@ function randomizeFonts() {
 if (window.jQuery) {
 elements = jQuery('div, p, td, li, span, button, a, strong, h1, h2, h3, h4, h5, h6');
 families = jQuery.unique(elements.map(function() { return jQuery(this).css('font-family') }));
-families.push("impact","helvetica","frijole","bangers");
+families.push('Nosifer','Sarina','Exo','Lemon','Press Start 2P','Abril Fatface','Helvetica');
 elements.each(function() {
 jQuery(this).css('font-family', families[Math.floor(Math.random()*families.length)]);
 });

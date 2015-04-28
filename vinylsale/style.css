@@ -4,10 +4,10 @@
 
 #set{
 	position: fixed;
-	left: 0;
+	left: 100px;
 	top:0;
 	z-index: -100;
-	width: 1200px;
+	width: 1100px;
 
 }
 
@@ -28,15 +28,14 @@
 	opacity: 1;
 }
 	#cover {
-		width: 464px;
-		height: 464px;
+		width: 445px;
+		height: 445px;
 		background: no-repeat;
 		background-size: 120%;
 		position: fixed;
-		top:49px;
-		left:390px;
+		top:38px;
+		left:450px;
 		opacity: .7;
-		-webkit-filter: saturate(4);
 		
 	}
 
@@ -53,7 +52,7 @@
 	h2 {
 		color: white;
 		font-size: 30pt;
-		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-width: .5px;
    		-webkit-text-stroke-color: black;
 	}
 

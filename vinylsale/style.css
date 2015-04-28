@@ -1,63 +1,72 @@
-	body {
-		background-color: #50B4C0;
-	}
-
+body {
+background-color: #50B4C0;
+}
 #set{
-	position: fixed;
-	left: 100px;
-	top:0;
-	z-index: -100;
-	width: 1100px;
-
+position: fixed;
+left: 100px;
+top:0;
+z-index: -100;
+width: 1100px;
 }
-
+@-webkit-keyframes bounce {
+0% {width: 110px;}
+50% {width: 130px;}
+100% {width: 110px;}
+}
+@-moz-keyframes bounce {
+0% {width: 110px;}
+50% {width: 130px;}
+100% {width: 110px;}
+}
+@-o-keyframes bounce {
+0% {width: 110px;}
+50% {width: 130px;}
+100% {width: 110px;}
+}
+@keyframes bounce {
+0% {width: 110px;}
+50% {width: 130px;}
+100% {width: 110px;}
+}
 #arrow {
-	width: 100px;
-	z-index: 10;
-	position: fixed;
-	right: 140px;
-	top: 350px;
-	opacity: .7;
-	transition:width .2s;
-	cursor: pointer;
+width: 100px;
+z-index: 10;
+position: fixed;
+right: 140px;
+top: 350px;
+opacity: .7;
+cursor: pointer;
+-webkit-animation: bounce 1s infinite;
+-moz-animation:    bounce 1s infinite;
+-o-animation:      bounce 1s infinite;
+animation:         bounce 1s infinite;
+}
+#cover {
+width: 445px;
+height: 445px;
+background: no-repeat;
+background-size: 120%;
+position: fixed;
+top:38px;
+left:450px;
+opacity: .7;
 
 }
+#cover-wrap {
 
-#arrow:hover {
-	width:110px;
-	opacity: 1;
+display: inline-block;
 }
-	#cover {
-		width: 445px;
-		height: 445px;
-		background: no-repeat;
-		background-size: 120%;
-		position: fixed;
-		top:38px;
-		left:450px;
-		opacity: .7;
-		
-	}
-
-	#cover-wrap {
-	
-		display: inline-block;
-
-	}
-
-	.title {
-		margin: 0 auto;
-		width: 90%;
-	}
-	h2 {
-		color: white;
-		font-size: 30pt;
-		-webkit-text-stroke-width: .5px;
-   		-webkit-text-stroke-color: black;
-	}
-
-	audio{
-		display: none;
-
-	}
-
+.title {
+margin: 0 auto;
+width: 90%;
+}
+h2 {
+color: white;
+font-size: 30pt;
+-webkit-text-stroke-width: .5px;
+-webkit-text-stroke-color: black;
+}
+audio{
+display: none;
+}
+/* The element to apply the animation to */

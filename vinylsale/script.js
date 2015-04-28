@@ -1,3 +1,9 @@
+$( document ).ready(function() {
+    var vid = document.getElementById("music");
+	vid.volume = 0.7;
+
+});
+
 
 
 
@@ -20,7 +26,7 @@ $(".title").append('<h2>'+ band + '</h2>');
 var band = band.replace(/\s+/g, '-');
 var band = band.replace('&', 'and');
 var band = band.replace('"', '');
-var lang = ['fr', 'de'];
+var lang = ['fr', 'de','en','it','ru'];
 var lan = lang[Math.floor(Math.random() * lang.length)];
 /*$("#player").append('<source id="voice-'+band+'" src="http://translate.google.com/translate_tts?tl='+lan+'&amp;q='+ band +'" type="audio/mpeg">');
 */
@@ -29,6 +35,7 @@ var stimmen = window.speechSynthesis.getVoices();
 var voice = ['2','3', '4','5', '6','7',];
 var vox = voice[Math.floor(Math.random() * voice.length)];
 worte.voice = stimmen[vox];
+worte.lang = 'fr';
 var rhythm = Math.floor((Math.random() * 5000) + 100);
 worte.pitch = 1;
 worte.rate = 1;

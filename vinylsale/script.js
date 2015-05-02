@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     var vid = document.getElementById("music");
-	vid.volume = 0.3;
+	vid.volume = 0.6;
 
 });
 
@@ -36,10 +36,10 @@ var vox = voice[Math.floor(Math.random() * voice.length)];
 worte.voice = stimmen[vox];
 worte.lang = 'fr';
 worte.rate = 1;
-var rhythm = Math.floor((Math.random() * 2000) + 100);
+var rhythm = Math.floor((Math.random() * 3000) + 1000);
 setInterval(function () {
-	var note = Math.floor((Math.random() * 2) + .8);
-	worte.pitch = note;
+	
+	worte.pitch = 1;
 	window.speechSynthesis.speak(worte)},rhythm);
 }
 // adds the text and the links from the first property into the list
@@ -92,7 +92,7 @@ function randomizeFonts() {
 if (window.jQuery) {
 elements = jQuery('div, p, td, li, span, button, a, strong, h1, h2, h3, h4, h5, h6');
 families = jQuery.unique(elements.map(function() { return jQuery(this).css('font-family') }));
-families.push('Nosifer','Sarina','Exo','Lemon','Press Start 2P','Abril Fatface','Helvetica');
+families.push('Sarina','Exo','Lemon','Press Start 2P','Abril Fatface','Helvetica');
 elements.each(function() {
 jQuery(this).css('font-family', families[Math.floor(Math.random()*families.length)]);
 });

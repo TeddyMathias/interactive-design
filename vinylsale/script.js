@@ -36,11 +36,11 @@ var vox = voice[Math.floor(Math.random() * voice.length)];
 worte.voice = stimmen[vox];
 worte.lang = 'fr';
 worte.rate = 1;
-var rhythm = Math.floor((Math.random() * 3000) + 1000);
+window.speechSynthesis.speak(worte);
 setInterval(function () {
 	
 	worte.pitch = 1;
-	window.speechSynthesis.speak(worte)},rhythm);
+	window.speechSynthesis.speak(worte)},15000);
 }
 // adds the text and the links from the first property into the list
 }
